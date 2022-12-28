@@ -1,13 +1,13 @@
 {
-  "name": "abLiquidationsTracker",
+  "name": "liquidations-subgraph",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ abLiquidationsTracker",
-    "create-local": "graph create --node http://localhost:8020/ abLiquidationsTracker",
-    "remove-local": "graph remove --node http://localhost:8020/ abLiquidationsTracker",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 abLiquidationsTracker",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ liquidations-subgraph",
+    "create-local": "graph create --node http://localhost:8020/ liquidations-subgraph",
+    "remove-local": "graph remove --node http://localhost:8020/ liquidations-subgraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 liquidations-subgraph",
     "test": "graph test"
   },
   "dependencies": {
